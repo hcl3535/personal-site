@@ -1,11 +1,12 @@
 import '../style/index.css';
+import CodersrankSummary from '@codersrank/summary';
 
 function Stats () {
     return(
-        <div className='flex-child stats centered'>
-          <img 
-            src='https://cr-ss-service.azurewebsites.net/api/ScreenShot?widget=summary&username=hcl3535&width=320&' alt="" >     
-          </img>
+        <div className='flex-child centered width'>
+          <codersrank-summary 
+          username="hcl3535"
+          ></codersrank-summary>
         </div>
     )
 }

@@ -21,8 +21,8 @@ function Introduction() {
     }
 
 return(
-    <div>
-      <div className='flex-child centered biggerText'>
+    <div className='flex-child'>
+      <div className='centered biggerText'>
         I am a Full-Stack Engineer,
         proficient with
       </div>

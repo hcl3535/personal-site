@@ -1,8 +1,8 @@
 .body{
-    background-color: rgb(32, 32, 32);
+    background-image: linear-gradient(to bottom right, rgb(62, 62, 62), black);
     color: white;
-    height: 100vh;
-    width: 100vw;
+    height: 100%;
+    width: 100%;
     margin: 0;
     padding: 0;
     display: flexbox;
@@ -57,6 +57,7 @@
 }
 .centered {
     text-align: center;
+    align-self: center;
 }
 .name {
     padding-top: 70px;
@@ -76,16 +77,11 @@
 }
 
 .flex-child {
-    flex: 1 1 0px;
-}
-
-.chart {
-    margin: 50px;
-    margin-bottom: 70px;
+    width: 50%;
 }
 
 .margin-top {
-    margin-top: 50px;
+    margin-top: 100px;
 }
 
 a:link {
@@ -99,5 +95,12 @@ a:visited {
 }
 
 a:hover {
-    color: lightgrey;
+    color: rgb(158, 158, 158);
 }
+
+codersrank-summary {
+    width: 640px;
+}
+
+
+

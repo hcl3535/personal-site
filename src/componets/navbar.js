@@ -19,7 +19,7 @@ function NavBar() {
           </div>
           <ul className='navMenu'>
             <li className='navItem'>home</li>
-            <li className='navItem'>item 2</li>
+            <li className='navItem'>Indi game</li>
             <li className='navItem'>item 3</li>
           </ul>
         </nav>

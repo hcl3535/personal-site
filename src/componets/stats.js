@@ -3,7 +3,7 @@ import CodersrankSummary from '@codersrank/summary';
 
 function Stats () {
     return(
-        <div className='flex-child centered width'>
+        <div className='flex-child centered width stats'>
           <codersrank-summary 
           username="hcl3535"
           ></codersrank-summary>

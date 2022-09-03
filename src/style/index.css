@@ -1,4 +1,4 @@
-.body{
+html{
     background-image: linear-gradient(to bottom right, rgb(62, 62, 62), black);
     color: white;
     height: 100%;
@@ -6,6 +6,8 @@
     margin: 0;
     padding: 0;
     display: flexbox;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 .header{

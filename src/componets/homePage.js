@@ -9,11 +9,9 @@ import Section3 from './Section3';
 function HomePage() {
   return (
     <div className='body'>
-      <NavBar/>
       <Section1/>
       <Section2/>
       <Section3/>
-      <Footer/>
     </div>
   );
 }

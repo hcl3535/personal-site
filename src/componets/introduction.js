@@ -3,7 +3,7 @@ import '../style/index.css';
 
 function Introduction() {
 
-    const proficiencies = ["JavaScript","Node", "React", "Express", "PostreSQL","Git", "HTML", "CSS"]
+    const proficiencies = ["JavaScript","Node", "React", "Express", "PostreSQL","Unreal Engine","Git", "HTML", "CSS",]
     let index = 0
     const [currentProficiency, setCurrentProficiency] = useState("javaScript") 
 

@@ -6,8 +6,8 @@ import GameVideo from './gameVideo';
 function Section2 () {
     return(
         <div className='flex margin-top'>
-          <GameDescription/>
           <GameVideo/>
+          <GameDescription/>
         </div>
     )
 }

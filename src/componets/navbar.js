@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import '../style/index.css';
 
 function NavBar() {
@@ -18,9 +19,8 @@ function NavBar() {
             <span className='bar'></span>         
           </div>
           <ul className='navMenu'>
-            <li className='navItem'>home</li>
-            <li className='navItem'>Indi game</li>
-            <li className='navItem'>item 3</li>
+            <Link to='/' className='navItem'>home</Link>
+            <Link to='indiGame' className='navItem'>Indi game</Link>
           </ul>
         </nav>
       </header>

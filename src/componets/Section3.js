@@ -5,7 +5,7 @@ import ShapeShopperVideo from './shapeShopperVideo';
 
 function Section3 () {
     return(
-        <div className='flex margin-top'>
+        <div className='flex margin-top padding border'>
           <ShapeShopperDescription/>
           <ShapeShopperVideo/>
         </div>

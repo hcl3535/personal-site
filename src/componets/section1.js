@@ -4,7 +4,7 @@ import Stats from './stats';
 
 function Section1 () {
     return(
-        <div className='flex margin-top'>
+        <div className='flex margin-top padding border'>
           <Introduction/>
           <Stats/>
         </div>

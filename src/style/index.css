@@ -86,6 +86,10 @@ html{
     margin-top: 100px;
 }
 
+.padding {
+    padding:40px
+}
+
 a:link {
     color:white;
     text-decoration: none;
@@ -104,7 +108,50 @@ codersrank-summary {
     width: 640px;
 }
 
+.border {
+    position: relative;
+    overflow: hidden;
+    box-shadow: 16px 14px 20px black;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
+.border::before {
+    content: '';
+    background-image: conic-gradient(
+        white 20deg,
+        transparent 120deg
+    );
+    width:150%;
+    height: 30%;
+    position: absolute;
+    animation: animate 15s linear infinite;
+    z-index: -1;
+}
+
+.border::after{
+    content: '';
+    width: 99%;
+    height: 95%;
+    border-radius:10px;
+    background-image: linear-gradient(to bottom right, rgb(62, 62, 62), black);
+    position: absolute;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: -1;
+}
+@keyframes animate {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(-360deg);
+    }
+}
 
 
 

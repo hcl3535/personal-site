@@ -7,7 +7,7 @@ function IndiGamePage() {
     return(
         <div >
           <div>
-          <div className='flex'>
+          <div className='flex margin-top padding border'>
               <div className='flex-child centered'>
                 <h1>My Indi-Game</h1>
                 <h3>
@@ -22,7 +22,7 @@ function IndiGamePage() {
                 videoId="AsRBsSi4t7o"
               />
             </div>
-            <div className='flex'>
+            <div className='flex margin-top padding border'>
               <YouTube 
                 className='flex-child'
                 videoId="uCnTzp-IW3A"
@@ -36,7 +36,7 @@ function IndiGamePage() {
                 </h3>
               </div>
             </div>
-            <div className='flex'>
+            <div className='flex margin-top padding border'>
                 <div className='flex-child centered'>
               <h1>Animation and rigging</h1>
               <h3>
@@ -50,7 +50,7 @@ function IndiGamePage() {
                 videoId="xU1T6F-Kdb8"
               />
             </div>
-            <div className='flex'>
+            <div className='flex margin-top padding border'>
               <YouTube
                 className='flex-child'
                 videoId="oRRWyisL5FI"
@@ -66,7 +66,7 @@ function IndiGamePage() {
                 </h3>
               </div>
             </div>
-            <div className='flex'>
+            <div className='flex margin-top padding border'>
               <div className='flex-child centered'>
                 <h1>Boss fights</h1>
                 <h3>

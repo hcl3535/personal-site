@@ -60,6 +60,7 @@ html{
 .centered {
     text-align: center;
     align-self: center;
+    justify-content: center;
 }
 .name {
     padding-top: 70px;
@@ -84,6 +85,9 @@ html{
 
 .margin-top {
     margin-top: 100px;
+}
+.margin-top-small {
+    margin-top: 20px;
 }
 
 .padding {
@@ -152,6 +156,20 @@ codersrank-summary {
         transform: rotate(-360deg);
     }
 }
+
+.imgLink {
+    width: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 25px;
+}
+
+.textarea {
+    width: 500px;
+    height: 200px;
+}
+
+
 
 
 

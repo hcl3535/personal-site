@@ -21,6 +21,7 @@ function NavBar() {
           <ul className='navMenu'>
             <Link to='/' className='navItem'>home</Link>
             <Link to='indiGame' className='navItem'>Indi game</Link>
+            <Link to='contact' className='navItem'>contact me</Link>
           </ul>
         </nav>
       </header>

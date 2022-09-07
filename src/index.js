@@ -6,6 +6,7 @@ import HomePage from './componets/homePage';
 import IndiGamePage from './componets/indiGamePage';
 import NavBar from './componets/navbar';
 import Footer from './componets/Footer';
+import ContactPage from './componets/contactPage';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -15,6 +16,7 @@ root.render(
     <Routes>
       <Route exact path='/' element={<HomePage/>}/>
       <Route exact path='/indiGame' element={<IndiGamePage/>}/>
+      <Route exact path='/contact' element={<ContactPage/>}/>
     </Routes>
   <Footer/>  
   </BrowserRouter>
